@@ -1,4 +1,4 @@
-# Vue gantt-schedule-timeline-calendar usage example
+# Vue [gantt-schedule-timeline-calendar](https://github.com/neuronetio/gantt-schedule-timeline-calendar) usage example
 
 ## Project setup
 ```
