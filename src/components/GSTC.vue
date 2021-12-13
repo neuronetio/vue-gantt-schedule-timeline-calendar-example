@@ -22,6 +22,9 @@ let gstc, state;
 // helper functions
 
 function generateRows() {
+  /**
+   * @type { import("gantt-schedule-timeline-calendar").Rows }
+   */
   const rows = {};
   for (let i = 0; i < 100; i++) {
     const id = GSTC.api.GSTCID(i.toString());
@@ -34,6 +37,9 @@ function generateRows() {
 }
 
 function generateItems() {
+  /**
+   * @type { import("gantt-schedule-timeline-calendar").Items }
+   */
   const items = {};
   let start = GSTC.api.date().startOf("day").subtract(6, "day");
   for (let i = 0; i < 100; i++) {
