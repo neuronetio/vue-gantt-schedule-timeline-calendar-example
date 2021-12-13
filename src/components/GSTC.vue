@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import GSTC from "gantt-schedule-timeline-calendar";
+import GSTC from "gantt-schedule-timeline-calendar/dist/gstc.wasm.esm.min.js";
 import { Plugin as TimelinePointer } from "gantt-schedule-timeline-calendar/dist/plugins/timeline-pointer.esm.min.js";
 import { Plugin as Selection } from "gantt-schedule-timeline-calendar/dist/plugins/selection.esm.min.js";
 import { Plugin as ItemResizing } from "gantt-schedule-timeline-calendar/dist/plugins/item-resizing.esm.min.js";
@@ -21,9 +21,6 @@ let gstc, state;
 
 // helper functions
 
-/**
- * @returns { import("gantt-schedule-timeline-calendar").Rows }
- */
 function generateRows() {
   const rows = {};
   for (let i = 0; i < 100; i++) {
@@ -36,9 +33,6 @@ function generateRows() {
   return rows;
 }
 
-/**
- * @returns { import("gantt-schedule-timeline-calendar").Items }
- */
 function generateItems() {
   const items = {};
   let start = GSTC.api.date().startOf("day").subtract(6, "day");
