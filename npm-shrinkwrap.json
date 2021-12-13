@@ -1,12 +1,12 @@
 {
   "name": "vue-gantt-schedule-timeline-calendar-example",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "vue-gantt-schedule-timeline-calendar-example",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "dependencies": {
         "core-js": "^3.19.1",
         "gantt-schedule-timeline-calendar": "^3.15.0",
