@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import GSTC from "gantt-schedule-timeline-calendar/dist/gstc.wasm.esm.min.js";
+import GSTC from "gantt-schedule-timeline-calendar";
 import { Plugin as TimelinePointer } from "gantt-schedule-timeline-calendar/dist/plugins/timeline-pointer.esm.min.js";
 import { Plugin as Selection } from "gantt-schedule-timeline-calendar/dist/plugins/selection.esm.min.js";
 import { Plugin as ItemResizing } from "gantt-schedule-timeline-calendar/dist/plugins/item-resizing.esm.min.js";
@@ -102,6 +102,7 @@ export default {
     state = GSTC.api.stateFromConfig(config);
 
     gstc = GSTC({
+      // @ts-ignore
       element: this.$refs.gstc,
       state,
     });
