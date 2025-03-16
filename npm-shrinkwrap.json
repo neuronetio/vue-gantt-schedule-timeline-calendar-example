@@ -18,6 +18,7 @@
         "@vue/cli-service": "^5.0.8",
         "@vue/compiler-sfc": "^3.5.13",
         "babel-eslint": "^10.1.0",
+        "cross-env": "^7.0.3",
         "eslint": "^9.20.1",
         "eslint-plugin-vue": "^9.32.0"
       }
@@ -5892,6 +5893,25 @@
       },
       "engines": {
         "node": ">=10"
+      }
+    },
+    "node_modules/cross-env": {
+      "version": "7.0.3",
+      "resolved": "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz",
+      "integrity": "sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "cross-spawn": "^7.0.1"
+      },
+      "bin": {
+        "cross-env": "src/bin/cross-env.js",
+        "cross-env-shell": "src/bin/cross-env-shell.js"
+      },
+      "engines": {
+        "node": ">=10.14",
+        "npm": ">=6",
+        "yarn": ">=1"
       }
     },
     "node_modules/cross-spawn": {
