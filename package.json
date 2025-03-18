@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.40.0",
-    "gantt-schedule-timeline-calendar": "^3.40.0",
+    "gantt-schedule-timeline-calendar": "^3.40.3",
     "vue": "^3.5.13",
     "wasm-loader": "^1.3.0"
   },

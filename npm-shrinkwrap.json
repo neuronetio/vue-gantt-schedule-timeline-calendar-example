@@ -9,7 +9,7 @@
       "version": "0.1.18",
       "dependencies": {
         "core-js": "^3.40.0",
-        "gantt-schedule-timeline-calendar": "^3.40.0",
+        "gantt-schedule-timeline-calendar": "^3.40.3",
         "vue": "^3.5.13",
         "wasm-loader": "^1.3.0"
       },
@@ -2501,6 +2501,15 @@
       "dev": true,
       "license": "MIT"
     },
+    "node_modules/@neuronet.io/vido": {
+      "version": "4.3.1",
+      "resolved": "https://registry.npmjs.org/@neuronet.io/vido/-/vido-4.3.1.tgz",
+      "integrity": "sha512-9JKg1235ugUnqPARyvHQWlAejNoMFYogw9UW43gf1madiHXlslq9JBOjvPXdUWbSMLZOr3vvi4tkHRxftvyz1Q==",
+      "license": "MIT",
+      "dependencies": {
+        "lit-html": "^3.2.1"
+      }
+    },
     "node_modules/@node-ipc/js-queue": {
       "version": "2.0.3",
       "resolved": "https://registry.npmjs.org/@node-ipc/js-queue/-/js-queue-2.0.3.tgz",
@@ -3040,6 +3049,12 @@
       "dependencies": {
         "@types/node": "*"
       }
+    },
+    "node_modules/@types/trusted-types": {
+      "version": "2.0.7",
+      "resolved": "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz",
+      "integrity": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==",
+      "license": "MIT"
     },
     "node_modules/@types/ws": {
       "version": "8.5.14",
@@ -6249,6 +6264,12 @@
       "integrity": "sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==",
       "license": "MIT"
     },
+    "node_modules/dayjs": {
+      "version": "1.11.13",
+      "resolved": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.13.tgz",
+      "integrity": "sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==",
+      "license": "MIT"
+    },
     "node_modules/debounce": {
       "version": "1.2.1",
       "resolved": "https://registry.npmjs.org/debounce/-/debounce-1.2.1.tgz",
@@ -6458,6 +6479,12 @@
       "resolved": "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz",
       "integrity": "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==",
       "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/deep-state-observer": {
+      "version": "5.5.14",
+      "resolved": "https://registry.npmjs.org/deep-state-observer/-/deep-state-observer-5.5.14.tgz",
+      "integrity": "sha512-rb4XCVPMvC9VDPLITJO7SS2e0tBnjPcyoFG+nD1qa+gVJm5o4JsZjxpE0j4Z/jDiTbuTKPaNhGZUZWxLs3CzAw==",
       "license": "MIT"
     },
     "node_modules/deepmerge": {
@@ -8350,10 +8377,15 @@
       }
     },
     "node_modules/gantt-schedule-timeline-calendar": {
-      "version": "3.40.0",
-      "resolved": "https://registry.npmjs.org/gantt-schedule-timeline-calendar/-/gantt-schedule-timeline-calendar-3.40.0.tgz",
-      "integrity": "sha512-ppRqyMDO+9EjTn52ATrQdr+8za43xbxnbUc6HvPTPpgyUCEaBUPJjVi0rcYK35Oh10QmeVzzWS6sM1DZrcoZUQ==",
-      "license": "SEE LICENSE IN LICENSE"
+      "version": "3.40.3",
+      "resolved": "https://registry.npmjs.org/gantt-schedule-timeline-calendar/-/gantt-schedule-timeline-calendar-3.40.3.tgz",
+      "integrity": "sha512-LnlVnj7YyBsH9W+A6VzedZ17XaOI0Mnc2fkrDeWLh6SToaeLczKxH6McPjKRJf7bT4nbGTRBuuiuWrc9JEeP7Q==",
+      "license": "SEE LICENSE IN LICENSE",
+      "dependencies": {
+        "@neuronet.io/vido": "^4.3.1",
+        "dayjs": "^1.11.13",
+        "deep-state-observer": "^5.5.14"
+      }
     },
     "node_modules/gensync": {
       "version": "1.0.0-beta.2",
@@ -9968,6 +10000,15 @@
       "integrity": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==",
       "dev": true,
       "license": "MIT"
+    },
+    "node_modules/lit-html": {
+      "version": "3.2.1",
+      "resolved": "https://registry.npmjs.org/lit-html/-/lit-html-3.2.1.tgz",
+      "integrity": "sha512-qI/3lziaPMSKsrwlxH/xMgikhQ0EGOX2ICU73Bi/YHFvz2j/yMCIrw4+puF2IpQ4+upd3EWbvnHM9+PnJn48YA==",
+      "license": "BSD-3-Clause",
+      "dependencies": {
+        "@types/trusted-types": "^2.0.2"
+      }
     },
     "node_modules/loader-runner": {
       "version": "4.3.0",
